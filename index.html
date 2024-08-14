@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+<title>Todo App</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="script.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="todo">
+                <strong style="font-size: 30px;">ToDo List</strong>
+
+            </div>
+        </div>
+    </header>
+
+
+    <div class="a">
+        <div class="center">
+            <h2>Add Items</h2>
+        </div>
+
+        <form id="myform">
+            <div class="row">
+                <input type="text" onkeyup="toggleButton(this, 'submit')" class="form-control" id="item">
+            </div>
+
+            <div class="b">
+                <input type="submit" class="btn btn-dark" id="submit" value="Submit" disabled>
+            </div>
+        </form>
+
+        
+       
+
+
+    </div>
+
+    <div class="tasks">
+        <h3 style="font-size: medium;">Tasks</h3>
+
+        <form id="myform">
+            <ul class="list-group" id="items"></ul>
+        </form>
+    </div>
+
+    
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+.container{
+    background-color: green;
+    display: flex;
+}
+
+.todo{
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.center{
+    width: 100px;
+}
+
+.tasks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
